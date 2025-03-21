@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+
+/********font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;*******/
+
+*,
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+header {
+    /*****Mexe no fundo topo********/
+
+    max-width: 1920px;
+    background: #000;
+    height: 200px;
+
+}
+
+.site {
+    /********Mexe em todo o site********/
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+
+.site {
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header div ul {
+    /*****Menu*******/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+    /******Mexeu o menu para a direita******/
+    margin-top: 50px;
+
+    /**************Deixa o menu centralizado entre margens superior e inferior************/
+
+}
+
+
+header div img {
+
+    z-index: 1;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu ul {
+
+    margin-left: 40%;
+}
+
+.menu ul li {
+
+    z-index: 1;
+    padding: 9px 0;
+    align-items: center;
+
+}
+
+.menu a {
+
+    display: block;
+    padding: 0px 10px;
+    margin: 08px 15px;
+    color: #fff;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/******Cor dos Botões TOPO*****/
+.menu a:hover {
+    color: #9abe94;
+}
+
+.ativo {
+    color: #9abe94 !important;
+}
+
+.subMenu ul {
+
+    display: none;
+    margin: auto;
+
+
+}
+
+.subMenu:hover ul {
+
+    display: block;
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 0px 10px 0px 10px;
+    background: rgba(204, 204, 204, 0.8);
+
+}
+
+.subMenu ul li a {
+
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 5px;
+
+
+}
+
+.subMenudois li a {
+
+    padding: 0px;
+    margin: 10px;
+}
+
+/********Botão Login***************/
+
+nav ul button {
+
+    background: url(../img/btnlogin.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    border: 0;
+    padding: 25px 35px;
+    cursor: pointer;
+}
+
+/*********Banner*******/
+
+.banner {
+
+    width: 100%;
+
+}
+
+/*********Botão Banner*********************/
+
+
+
+.banner .slick-prev:before,
+.banner .slick-next:before {
+
+    font-size: 40px;
+    color: #9abe94;
+}
+
+.banner .slick-prev {
+    /***********Mexe no Botão esquerdo**********/
+
+    left: 35px;
+    z-index: 1;
+}
+
+.banner .slick-next {
+
+    right: 40px;
+}
+
+.banner .slick-dots {
+
+    bottom: 25px;
+}
+
+.banner .slick-dots li {
+
+    margin: 0 20px;
+}
+
+.slick-dots li button:before {
+
+    font-size: 40px;
+    color: #9abe94;
+
+}
+
+.slick-dots li.slick-active button:before {
+
+    opacity: .75;
+    color: #9abe94;
+
+}
+
+/*******Fim Botão Banner*******************/
+
+.concreto {
+
+    background: url(../img/fundoconcreto.png);
+
+}
+
+/**********Visão************/
+
+.visao button {
+
+    z-index: 2;
+    margin-left: 43%;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    padding: 50px 0 30px;
+
+}
+
+.visao h2 {
+
+    margin: 0px 555px;
+    align-items: center;
+    color: black;
+
+    font-size: 1.8em;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 20px;
+    padding: 50px 0 0;
+
+}
+
+.visao div p {
+
+    text-align: justify;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    margin-top: 3%;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+/****Serviços*******/
+
+.arquitetura {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -30px;
+}
+
+.arquitetura button {
+
+    word-spacing: 1100px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    align-self: center;
+    font-family: 'Exo', sans-serif;
+
+}
+
+/*******Carrossel***********/
+
+.arquitetura .rotativoum {
+    max-width: 700px;
+    width: 100%;
+
+}
+
+.arquitetura .rotativoum .slick-prev:before,
+.arquitetura .rotativoum .slick-next:before {
+
+    display: none;
+}
+
+.arquitetura .rotativoum .slick-dots {
+    /***********/
+
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+
+.arquitetura .slick-dots li {
+
+    display: none;
+
+}
+
+/**************/
+
+/**********Carrossel Arquitetura e Urbanismo**********/
+
+
+.design {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-bottom: -30px;
+
+}
+
+.design button {
+
+    word-spacing: 1100px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    align-self: center;
+    font-family: 'Exo', sans-serif;
+
+
+}
+
+/***********Carrossel Design**********/
+
+.design .rotativodois {
+
+    max-width: 700px;
+    width: 100%;
+
+
+}
+
+.design .rotativodois .slick-prev:before,
+.design .rotativodois .slick-next:before {
+
+    display: none;
+}
+
+.design .rotativodois .slick-dots {
+    /***********/
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+
+.design .slick-dots li {
+
+    display: none;
+
+}
+
+/******Fim Carrossel Design************/
+
+.construcao {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -30px;
+}
+
+
+.construcao button {
+
+    word-spacing: 1100px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    align-self: center;
+    font-family: 'Exo', sans-serif;
+
+}
+
+/*********Carrossel Construção************/
+
+.construcao .rotativotres {
+
+    max-width: 700px;
+    width: 100%;
+
+}
+
+.construcao .rotativotres .slick-prev:before,
+.construcao .rotativotres .slick-next:before {
+
+    display: none;
+}
+
+.construcao .rotativotres .slick-dots {
+    /***********/
+
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+
+.construcao .slick-dots li {
+
+    display: none;
+
+}
+
+
+
+/*****Projetos 3D*******************/
+
+.projetos3d button {
+
+    z-index: 2;
+    margin-left: 43%;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    position: absolute;
+    padding: 50px;
+
+}
+
+.projetos3d img {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    opacity: 25%;
+
+}
+
+.projetos3d p {
+
+    position: absolute;
+    text-align: justify;
+    z-index: 2;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    margin: -285px 410px 0px 410px;
+    
+}
+
+
+/**************Depoimentos*******************/
+
+.depoimentos button {
+
+    z-index: 2;
+    margin-left: 44%;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: auto;
+    height: min-content;
+    background: none;
+    font-weight: bold;
+    padding: 50px 0 30px;
+
+}
+
+.depoimentos p {
+
+    text-align: justify;
+    margin: 0 50px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    padding: 0px 0 50px;
+}
+
+/******Carrossel DEPOIMENTOS**************/
+
+.depoimentodois .slick-dots li {
+
+    display: none;
+
+}
+
+
+
+/******Rodapé**************/
+
+.rodape {
+
+    display: flex;
+    text-align: center;
+    background: #000;
+    margin-top: 58px;
+}
+
+.rodape h2 {
+
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 50px 0 35px;
+    color: #fff;
+}
+
+.rodape ul {
+
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    padding: 0 40%;
+
+}
+
+.rodape .telefone {
+
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+}
+
+.rodape .copyright ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 1% 40% 0;
+
+}
+
+.rodape p {
+
+    margin: 10px;
+
+}
+
+/*************Whats************/
+
+.whats {
+
+    position: fixed;
+
+    bottom: 22%;
+    right: 50px;
+    z-index: 9999;
+
+}
+
+/**************************Código CSS Página História*****************************/
+
+/**********História***************/
+
+.historia{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.historia h2{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.historia p{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+/**********Fim História***************/
+
+/**********Sócios***************/
+
+
+.socios .site{
+
+    display: flex;
+    text-align: center;
+    margin-right: 18%;
+    margin-top: 3%;
+    
+}
+
+.socios img{
+
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 20px 20px;
+  color: rgba(66, 95, 83);
+   
+}
+
+.socios p{
+
+    
+    padding-top: 10%;
+    font-size: 1em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    text-align: justify;
+    margin: 9% 11%;
+
+
+}
+
+
+
+/**********Fim Sócios***************/
+
+/*****************PG CONTATO*********************/
+
+.contato {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contato h2 {
+
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 8%;
+
+}
+
+.contato h4{
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30%;
+}
+
+/************INFO********************/
+
+.cx input[type="text"] {
+
+    margin: 0 0 3%;
+}
+
+
+
+.cx input {
+
+    max-width: 1200px;
+    width: 100%;
+    border: 2px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    background: #000;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*********************************************/
+
+.redes .site {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.redes .site div div {
+
+    margin-bottom: 5%;
+}
+
+/******************CAIXA DE MENSAGEM************************/
+
+.caixamensagem {
+
+    width: 100%;
+
+}
+
+.caixamensagem .site {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixamensagem .site div {
+    margin-bottom: 10px;
+
+}
+
+.caixamensagem .site textarea {
+
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5%;
+    margin-block: 3%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+/*****************************************/
+
+
+.caixamensagem .site input[type="submit"] {
+    display: flex;
+    margin-left: 94%;
+    margin-bottom: 5%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**************** PROJETO RESIDENCIAL *******************/
+
+/***************** PROJETO RESIDENCIAL ********************/
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    transition: opacity 0.5s;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+}
+
+.arrow-button.left {
+    left: 10px;
+}
+
+.arrow-button.right {
+    right: 10px;
+}
+
+/******************  *****************/
+
+.gallery-link img{
+    margin: 5%; /* Espaçamento entre as imagens */
+    padding-top: 10%; /* Espaçamento do topo */
+}
+
+
+.projetoresidencial{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/**************** PROJETO EMPRESARIAL *******************/
+
+.projetoempresarialum a img{
+    margin: 5%; /* Espaçamento entre as imagens */
+    padding-top: 10%; /* Espaçamento do topo */
+}
+
+.projetoempresarialdois{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/**************** PROJETO 3D *******************/
+
+.projeto3dum a img{
+    margin: 5%; /* Espaçamento entre as imagens */
+    padding-top: 10%; /* Espaçamento do topo */
+}
+
+.projeto3ddois{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20%;
+}
